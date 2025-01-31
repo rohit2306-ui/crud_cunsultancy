@@ -6,7 +6,8 @@ const Footer = () => {
     return (
         <>
             <footer>
-                <div className="footer max-w-full mx-auto px-4 sm:px-6 bg-gray-100 border-t border-b py-30">
+                <div className="footer max-w-full mx-auto px-4 sm:px-6 bg-gray-100 border-t border-b py-30 bg-black
+background-color: var(--color-black);">
 
                     {/* Top area: Blocks */}
                     <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 border-t border-gray-200 lg:ml-11">
@@ -14,12 +15,10 @@ const Footer = () => {
                     {/* 1st block */}
                     <div className="col-span-12 lg:col-span-4">
                         <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
-                            <h3 className="font-bold text-4xl mb-4">MLD</h3>
+                            <h3 className="font-bold text-4xl mb-4">Crud consultancy</h3>
                             <div className='text-md font-medium text-gray-600'>
-                                <h5>Molad e Konsult</h5>
-                                <p>Ilo Awela,</p>
-                                <p>Ota,</p>
-                                <p>Ogun State.</p>
+                                <h5>New Delhi</h5>
+                    
                             </div>
                         </div>
                     </div>
@@ -61,15 +60,11 @@ const Footer = () => {
 
                     {/* 4th block */}
                     <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-blue-900">
-                        <div className="text-xl mb-6">
-                            Social Media Links.
-                        </div>
+                        
 
-                                <div className="text-md font-medium mb-6">
-                                    Follow us on social media.
-                                </div>
+                                
                         <div className="mx-auto text-center mt-2">
-                                <ul className="flex justify-center mb-4 md:mb-0">
+                                {/* <ul className="flex justify-center mb-4 md:mb-0">
                                     <li>
                                         <Link to="#" className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Twitter">
                                         <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -84,13 +79,14 @@ const Footer = () => {
                                         </svg>
                                         </Link>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                     </div>          
 
                     </div>
 
-                    <div className="flex flex-wrap items-center md:justify-between justify-center mx-auto px-4">
+                    <div className="flex flex-wrap items-center md:justify-between justify-center mx-auto px-4 bg-black
+background-color: var(--color-black)">
                 <div className="w-full md:w-4/12 px-4 mx-auto text-center py-2">
                     <div className="text-sm text-gray-200 font-semibold py-1">
                     Copyright &copy; {new Date().getFullYear()}{"  "}
@@ -98,7 +94,7 @@ const Footer = () => {
                         to="#"
                         className=" hover:text-gray-900"
                     >
-                        Molad e Konsult
+                        Crud Consultancy
                     </HashLink>. All rights reserved.
                     </div>
                 </div>

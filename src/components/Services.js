@@ -7,10 +7,10 @@ import img4 from '../images/consultation.svg';
 const Services = () => {
 
     return (
-        <div id="services" className="bg-gray-100 py-12" >
+        <div id="services" className="bg-indigo-300 py-12" >
             <section data-aos="zoom-in-down">
                     <div className="my-4 py-4">
-                        <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">services</h2>
+                        <h2 className="my-2 text-center text-3xl text-white uppercase font-bold">services</h2>
                         
                         <div className='flex justify-center'>
                             <div className='w-24 border-b-4 border-blue-900'></div>
@@ -21,7 +21,7 @@ const Services = () => {
                     <div className="px-12" data-aos="fade-down" data-aos-delay="600">
                         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
                             
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                            <div className="border-2 border-grey bg-indigo-100 transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Web Development</h2>
@@ -31,7 +31,7 @@ const Services = () => {
                                 </div>
                             </div>
 
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                            <div className="border-2 border-grey bg-indigo-100 transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Mobile App Development</h2>
@@ -41,7 +41,7 @@ const Services = () => {
                                 </div>
                             </div>
 
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                            {/* <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Domain and Hosting Services</h2>
@@ -49,9 +49,9 @@ const Services = () => {
                                         We provide domain registration and web hosting services to individuals and organizations to enable them gain visibility in the digital space.
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
 
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                            <div className="border-2 border-grey bg-indigo-100 transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">General IT Consultations</h2>
@@ -75,7 +75,9 @@ const Services = () => {
                             font-bold">We <span className='font-black'>Build</span></h3>
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>
-                                    With over 10 years experience in software analysis and design and a deep understanding of the latest IT trends and solutions, we provide customized recommendations and strategies to help you improve your operations, reduce costs, and increase efficiency.
+                                    With years experience in software industry and design and a deep understanding of 
+                                    the latest IT trends and solutions, we provide customized recommendations and strategies to help you 
+                                    improve your operations, reduce costs, and increase efficiency.
                                 </p>
                             </div>
                         </div>

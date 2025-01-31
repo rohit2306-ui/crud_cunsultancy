@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Portfolio = () => {
     return (
         <>
-            <div className="my-4 py-4" id='portfolio'>
+            <div className="my-4 py-4 bg-indigo-100" id='portfolio'>
                 <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">Products</h2>
                 <div className='flex justify-center'>
                     <div className='w-24 border-b-4 border-blue-900 mb-8'></div>
@@ -12,7 +12,7 @@ const Portfolio = () => {
 
                 <div className="px-4" data-aos="fade-down" data-aos-delay="600">
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">                            
-                        <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
+                        <div className="border-2 border-black bg-indigo-300 transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
                             <div className="m-2 text-justify text-sm">
                                 <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Business Management System</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
@@ -29,7 +29,7 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                        <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
+                        <div className="border-2 border-black bg-indigo-300 transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
                                 <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">School Management Portal</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
@@ -57,7 +57,7 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                        <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
+                        <div className="border-2 border-black bg-indigo-300 py-12 transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Payroll Management System</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
@@ -73,7 +73,7 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                        <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
+                        <div className="border-2 border-black bg-indigo-300 transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
                                 <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Event Management System</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
