@@ -180,8 +180,8 @@ const Contact = () => {
                                         <i className="fas fa-map-marker-alt pt-2 pr-2" />
                                     </div>
                                     <div className="flex flex-col">
-                                        <h2 className="text-2xl">Office Address</h2>
-                                        <p className="text-gray-400">Ilo Awela, Ota, Ogun State</p>
+                                        <h2 className="text-2xl">Crud consultancy</h2>
+                                        
                                     </div>
                                 </div>
                     
@@ -192,11 +192,11 @@ const Contact = () => {
 
                         <div className="flex flex-col">
                         <h2 className="text-2xl">Call Us</h2>
-                        <p className="text-gray-400">Tel: 08055384406</p>
+                        <p className="text-gray-400">Tel: 9368646810</p>
                         
                             <div className='mt-5'>
                                 <h2 className="text-2xl">Send an E-mail</h2>
-                                <p className="text-gray-400">info@mld.ng</p>
+                                <p className="text-gray-400">rdhak1237@gmail.com</p>
                             </div>
                        
                         </div>
